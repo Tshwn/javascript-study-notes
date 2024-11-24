@@ -2,10 +2,7 @@ const items = document.querySelectorAll('.img-item');
 
 for (let i = 0; i < items.length; i++) {
   const keyframes = {
-    opacity: [0, 1],
-    // rotate: ['x 90deg', 0],
-    translate: ['0 -50px', 0],
-    // translate 0が横 50pxが縦, ,0は移動後の値
+    filter: ['blur(20px)', 'blur(0)'],
   };
 
   const options = {
